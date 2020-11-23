@@ -1,2 +1,2 @@
 # site-gravadora
- Projeto desenvolvido no intuito de estudar Bootstrap
+ Projeto em desenvolvimento com o intuito de estudar Bootstrap
