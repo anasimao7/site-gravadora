@@ -1,3 +1,44 @@
-h1{
-    color: goldenrod;
+/*Gerais*/
+body{
+    font-family: 'Kalam', sans-serif /*para inventuais problemas*/;
+}
+
+.row{ /*bootstrap utiliza a classe row para fazer linhas*/
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+}
+
+p, li{
+    color: grey;
+    font-size: 14px;
+}
+
+/*Barra de navegação*/
+header, .navbar{
+    background-color: rgb(131, 130, 134);
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand{
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand:hover{
+    color: rgb(255, 255, 255);
+}
+
+#navbar-links a{
+    color:  rgb(255, 255, 255);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{ /*custumiza classes definidas pelo Bootstrap*/
+    padding: 1rem .8rem;
 }
