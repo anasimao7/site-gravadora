@@ -1,4 +1,4 @@
-//instrução de jquery que inicializa o script apenas quando o documento estiver pronto, esteja o html carregar por completo
+//instrução de jquery que inicializa o script apenas quando o documento estiver pronto, espera o html carregar por completo
 $(document).ready(function(){
     //Progress Bar
     let containerA = document.getElementById('circleA')
