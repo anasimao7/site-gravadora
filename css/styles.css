@@ -18,7 +18,7 @@ p, li{
 
 /*Barra de navegação*/
 header, .navbar{
-    background-color: rgb(131, 130, 134);
+    background-color: rgb(171, 170, 175);
 }
 
 #nav-container{
@@ -96,6 +96,12 @@ header, .navbar{
     background-color: rgb(233, 228, 228);
 }
 
+/*
+#about-area p{
+    font-size: 18px;
+}
+*/
+
 .main-title{
     color: rgb(92, 91, 91);
     margin: 0 0 65px 0;
@@ -131,4 +137,46 @@ header, .navbar{
 #about-list i{
     color: teal;
     margin-right: 15px;
+}
+
+/*Serviços*/
+.service-box{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i, .service-box h4{
+    transition: .5s;
+}
+
+.service-box i{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.service-box h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-box:hover > i, .service-box:hover > h4{ /*sempre que o mouse passar por cima da service box, vai mudar o icon e o parágrafo*/
+    color: teal;
+}
+
+/*Loading de dados*/
+.circle-box div{ /*vai fazer o espaçamento do texto dentro do círculo*/
+    padding: 0 40px;
+}
+
+.progressbar-text{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#data-area p{ /*faz o estilo de todos os parágrafos da área*/
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
 }
