@@ -197,3 +197,53 @@ header, .navbar{
 #team-area p{
     font-size: 15px;
 }
+
+/*Seção de Contratação*/
+#apply-area{
+    height: 500px;
+}
+
+#apply-area .container-fluid, #apply-area .row{
+    height: 100%;
+}
+
+#apply-area .apply-box{
+    text-align: center;
+    padding: 70px 50px;
+}
+
+#cds-img{
+    background-image: url('../img/L.png'); /*insere a imagem*/
+    background-size: cover; /*imagem cobre todo o container*/
+    height: 100%;
+}
+
+#gravacao-img h4, #gravacao-img p{
+    color: white;
+}
+
+#gravacao-img h4{
+    margin-top: 8%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#gravacao-img p{
+    margin-bottom: 20px;
+}
+
+#apply-btn{
+    display: block;
+    height: auto;
+    width: 180px;
+    margin-left: auto; /*centraliza o botão*/
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: transparent;
+    border-color: white;
+}
+
+#apply-btn:hover{
+    border-color: teal;
+    background-color: teal;
+}

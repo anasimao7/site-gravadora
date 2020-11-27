@@ -88,5 +88,6 @@ $(document).ready(function(){
     //Parallax
     setTimeout(function(){ //serve para recarregar todas as imagens da páginas
         $('#data-area').parallax({imageSrc: 'img/fundo.png'}) //acessar a área
+        $('#apply-area').parallax({imageSrc: 'img/R.png'}) 
     }, 250)
 })
