@@ -90,4 +90,40 @@ $(document).ready(function(){
         $('#data-area').parallax({imageSrc: 'img/fundo.png'}) //acessar a área
         $('#apply-area').parallax({imageSrc: 'img/R.png'}) 
     }, 250)
+
+    //Filtro de Artistas
+    //evento de clique que identifica quando o botão é clicado e inicia uma funcao anónima
+    $('.filter-btn').on('click', function(){ 
+        let type = $(this).attr('id') //identifica o tipo de botão
+        let boxers = $('.project-box') //identifica as boxs do projeto
+
+        $('.main-btn').removeClass('active') //remove a classe 'active'
+        $(this).addClass('active') //o botão que foi clicado fica ativo
+
+        if(type == 'pop-btn'){
+            eachBoxers('pop', boxers)
+        }else if(type == 'rap-btn'){
+            eachBoxers('rap', boxers)
+        }else if(type == 'rock-btn'){
+            eachBoxers('rock', boxers)
+        }else if(type == 'elect-btn'){
+            eachBoxers('elect', boxers)
+        }else{
+            eachBoxers('all', boxers)
+        }
+    }) 
+
+    function eachBoxers(type, boxers){
+        if(type == 'all'){ //verifica se o 'id' selecionado é 'all'
+            $(boxers).fadeIn() //evento do jquery que exibe todos os items ocultos pelo fade
+        } else{
+            $(boxers).each(function(){ //passar por cada caixa
+                if(!$(this).hasClass(type)){ //se o botão clicado não representar a box
+                    $(this).fadeOut('slow') //esconde os items
+                }else{
+                    $(this).fadeIn()
+                }
+            })
+        }
+    }
 })
