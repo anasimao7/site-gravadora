@@ -289,8 +289,8 @@ header, .navbar{
 }
 
 .zoom:hover img{
-    -moz-transition: scale(1.1);
-    -webkit-transition: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
@@ -306,4 +306,82 @@ header, .navbar{
     text-align: center;
     font-weight: bold;
     text-shadow: 0 lpx 3px rgba(0,0,0,0.6);
+}
+
+/*Newsletter*/
+#news-area{
+    text-align: center;
+    background-color: rgb(233, 228, 228);
+}
+
+#news-area p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#email-input{
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid teal;
+    display: inline;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;
+}
+
+#news-btn{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid teal;
+    background-color: teal;
+    text-transform: uppercase;
+    color: white;
+    height: 40px;
+    padding: 0 30px;
+    margin-left: -130px;
+    position: absolute;
+    transition: .5s;
+}
+
+#news-btn:hover{
+    background-color: white;
+    color: teal;
+}
+
+/*Passatempos*/
+#passatempos-area{
+    background-color: teal;
+    text-transform: uppercase;
+}
+
+#passatempos-area .container{
+    padding: 40px 100px;
+}
+
+#passatempos-area .row{
+    display: block; /*alinhar os textos no centro da área*/
+    text-align: center;
+}
+
+#passatempos-area p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: auto;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    display: inline;
+    height: 60px;
+    line-height: 60px;
+}
+
+#passatempos-area #passatempos-btn{
+    background-color: white;
+    color: teal;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+    width: auto;
+    letter-spacing: 2px;
 }
