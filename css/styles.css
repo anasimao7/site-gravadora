@@ -385,3 +385,76 @@ header, .navbar{
     width: auto;
     letter-spacing: 2px;
 }
+
+/*Rodapé - Contacto*/
+#contact-area{
+    text-align: center;
+}
+
+.contact-box{
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid teal;
+}
+
+.contact-box i{
+    color: grey;
+    border: solid 1px grey;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-box p{
+    font-size: 16px;
+}
+
+.contact-title{
+    font-weight: bold;
+    color: teal;
+}
+
+#msg-box p{
+    font-size: 22px;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea{
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+#contact-form .main-btn{
+    width: 120px;
+    height: 50px;
+}
+
+#contact-form .main-btn:hover{
+    color: teal;
+}
+
+/*Copyright*/
+#copy-area{
+    background-color: rgb(233, 228, 228);
+}
+
+#copy-area .container{
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p{
+    margin-bottom: 0;
+}
+
+#copy-area .container a{
+    font-weight: bold;
+    color: rgb(75, 74, 74);
+}
+
+#copy-area .container a:hover{
+    text-decoration: none;
+    color: teal;
+}
