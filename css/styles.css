@@ -458,3 +458,175 @@ header, .navbar{
     text-decoration: none;
     color: teal;
 }
+
+/*Responsive Tablet*/
+@media(max-width: 768px){ /*Resolução de tablet*/
+    /*Geral*/
+    .container{
+        padding: 20px 0;
+    }
+
+    /*Slider*/
+    #mainSlider{
+        margin-top: 90px;
+    }
+
+    #mainSlider .carousel-inner, #mainSlider .caurosel-item{
+        height: auto;
+    }
+
+    #mainSlider .carousel-caption h2{
+        font-size: 28px;
+    }
+
+    #mainSlider .carousel-caption p{
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .carousel-caption{
+        left: 10%;
+        right: 10%;
+    }
+
+    /*Sobre a empresa*/
+    #about-area img{
+        margin-top: 100px;
+    }
+
+    /*Loading de dados*/
+    .circle-box div{
+        padding: 0 10px;
+    }
+
+    #data-area p{
+        font-size: 18px;
+    }
+
+    /*Equipa*/
+    .card-title{
+        font-size: 16px;
+    }
+
+    #team-area p{
+        font-size: 14px;
+    }
+
+    /*Seção de Contratação*/
+    #apply-area .apply-box{
+        padding: 50px 25px;
+    }
+
+    #cds-img{
+        background-size: 100% 100%;
+        height: 100%;
+    }
+
+    /*Newsletter*/
+    #news-area p{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #email-input{
+        width: 70%;
+    }
+
+    /*Passatempos*/
+    #passatempos-area{
+        margin-top: 30px;
+    }
+
+    #passatempos-area .container{
+        padding: 30px;
+    }
+
+    #passatempos-area p, #passatempos-area, #passatempos-btn{
+        font-size: 16px;
+    }
+}
+
+/*Responsive Mobile*/
+@media(max-width: 425px){
+    /*Slider*/
+    #mainSlider{
+        margin-top: 90px;
+    }
+
+    #mainSlider .carousel-caption{
+        top: 5%;
+    }
+
+    #mainSlider .carousel-caption h2{
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    #mainSlider .carousel-caption p{
+        display: none; /*Oculta o conteúdo do parágrafo*/
+    }
+
+    .carousel-caption .main-btn{
+        font-size: 14px;
+    }
+
+    /*Sobre a empresa*/
+    .main-title{
+        font-size: 30px;
+    }
+
+    #about-area img{
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    /*Loading de dados*/
+    .circle-box{
+        width: 50%;
+    }
+
+    /*Sobre a empresa*/
+    #team-area .col-md-3{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    /*Seção de Contratação*/
+    #apply-area{
+        height: auto;
+    }
+
+    #cds-img{
+        display: none;
+    }
+
+    /*Artistas*/
+    #artists-area .filter-btn{
+        margin-bottom: 20px; /*Espaçamento entre botões*/
+    }
+
+    .project-box{
+        width: 50%;
+    }
+
+    /*Newsletter*/
+   #email-input{
+       width: 80%;
+   }
+
+   /*Passatempos*/
+   #passatempos-area p, #passatempos-area #passatempos-btn{
+       font-size: 18px;
+       letter-spacing: 0;
+       margin: 0;
+       width: 50%;
+   }
+
+   /*Contactos*/
+   .contact-box{
+       border: none;
+       margin-bottom: 0;
+   }
+
+}
