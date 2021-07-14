@@ -1,2 +1,2 @@
-# site-gravadora
- Projeto em desenvolvimento com o intuito de estudar Bootstrap
+# Music Records
+ Projeto desenvolvido com o intuito de estudar Bootstrap
